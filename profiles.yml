@@ -1,0 +1,12 @@
+incident_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost        # because you're running dbt on your Mac
+      port: 5434             # <-- use 5434 if your compose maps 5434:5432
+      user: incident
+      password: incidentpw
+      dbname: incidentdb
+      schema: analytics
+      threads: 4
