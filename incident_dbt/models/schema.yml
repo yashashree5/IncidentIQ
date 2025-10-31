@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_uci_incident_events
+    columns:
+      - name: number
+        tests: [not_null]
+      - name: opened_at
+        tests: [not_null]
+
+  - name: fct_incidents
+    columns:
+      - name: incident_id
+        tests: [unique, not_null]
+      - name: mttr_hours
+      - name: sla_met_by_priority

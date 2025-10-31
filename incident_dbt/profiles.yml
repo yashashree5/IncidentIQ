@@ -1,0 +1,12 @@
+incident_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5434
+      user: incident
+      password: incidentpw
+      dbname: incidentdb
+      schema: analytics
+      threads: 4
