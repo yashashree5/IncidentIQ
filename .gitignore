@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+
+# System files
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets / environment
+.env
+*.env
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/venv/
+
+# Docker
+*.log
+docker-volume/
