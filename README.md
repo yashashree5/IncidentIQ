@@ -1,4 +1,4 @@
-# 🚨 IncidentIQ — AI-Powered Incident Management Data Platform  
+# IncidentIQ — AI-Powered Incident Management Data Platform  
 
 > **"From chaos to clarity — how AI now helps resolve incidents faster."**
 
