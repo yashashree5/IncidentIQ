@@ -4,7 +4,7 @@
 
 ---
 
-## 🧩 Background  
+## Background  
 
 Working with **Barclays**, I witnessed firsthand how our **Run the Bank (RTB)** teams struggled with day-to-day incident management.  
 Each incident — no matter how small — meant:  
@@ -17,7 +17,7 @@ This manual, human-dependent process wasted **hours every day**, and often left 
 
 ---
 
-## ⚙️ The Problem  
+## The Problem  
 
 The **incident tracking sheet** was the lifeline — but also the bottleneck.  
 Imagine this:  
@@ -29,7 +29,7 @@ There was **no single source of truth**, no data-driven visibility, and no quick
 
 ---
 
-## 💡 The Spark  
+## The Spark  
 
 That’s where **IncidentIQ** was born —  
 an **AI-powered Incident Management Data Platform** that brings together:
@@ -44,7 +44,7 @@ an **AI-powered Incident Management Data Platform** that brings together:
 
 ---
 
-## 🧱 Architecture Overview  
+## Architecture Overview  
 [Incident Logs / UCI Dataset]
 │
 ▼
@@ -62,7 +62,7 @@ Streamlit Dashboard ──► AI Triage (OpenAI)
 
 ---
 
-## 🧪 Staging the Data  
+##  Staging the Data  
 
 The first step was to automate ingestion and cleaning.  
 Here’s a glimpse from the **command-line staging process**:
@@ -112,7 +112,7 @@ RTB can **proactively resolve** or **communicate fixes** directly to clients.
 
 ---
 
-## ⚡ The Impact  
+##  The Impact  
 
 | Metric | Before | After |
 |---------|---------|--------|
@@ -123,7 +123,7 @@ RTB can **proactively resolve** or **communicate fixes** directly to clients.
 
 ---
 
-## 🧠 Tech Stack  
+## Tech Stack  
 
 | Layer | Tool | Purpose |
 |-------|------|----------|
@@ -136,9 +136,9 @@ RTB can **proactively resolve** or **communicate fixes** directly to clients.
 
 ---
 
-## 🧩 Setup  
+## Setup  
 
-### 🧰 Local Installation  
+### Local Installation  
 ```bash
 git clone https://github.com/<your-username>/incidentiq.git
 cd incidentiq
